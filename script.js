@@ -31,7 +31,7 @@ function showHeaderUI(headerText, buttonClass) {
 
 // Fetch Albums
 const fetchAlbums = async () => {
-  const response = await fetch(`${sourceUrl}albums.json`);
+  const response = await fetch(`https://cdn.jsdelivr.net/gh/eloi700/JavaScript-100-Days@6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/albums.json`);
   const { albums } = await response.json();
   albumsUI(albums);
 };
