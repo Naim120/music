@@ -7,10 +7,10 @@ const albumListHeader = showHeaderUI('List of Albums', 'album-close-btn');
 let listOfSongs = null;
 
 const sourceUrl =
-  'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC';
+  'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/';
 
 const imgSrcUrl =
-  'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/album-imgs';
+  'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/album-imgs/';
 
 // Album Tracks UI Container
 const albumTracks = document.createElement('div');
