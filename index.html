@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 40-MUSIC PLAYER</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<canvas class="orb-canvas"></canvas>
+<!-- Overlay -->
+<div class="overlay">
+  <!-- Overlay inner wrapper -->
+  <div class="overlay__inner">
+
+<section class="container music-box">
+      <div class="music">
+        <!-- Music Player -->
+        <div class="music-player">
+          <!-- Header -->
+          <div class="main-header">
+            <img
+              class="logo_img"
+              src="https://raw.githubusercontent.com/eloi700/JavaScript-100-Days/main/DATA-MUSIC/album-imgs/logo.png"
+              alt="logo"
+            />
+            <div class="header-cont">
+              <h2 class="header-title">TuneTrack</h2>
+              <h5 class="sub-header-title">Your Melodic Companion</h5>
+            </div>
+            <button class="menu-btn">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+
+          <!-- Album Details -->
+          <div class="album-details">
+            <div class="image">
+              <img
+                class="album_img"
+                src="https://raw.githubusercontent.com/eloi700/JavaScript-100-Days/main/DATA-MUSIC/album-imgs/album2.jpg"
+                alt="Default Album Image"
+                loading="eager"
+              />
+            </div>
+            <div class="title-and-author">
+              <p class="album_title">Dance - Relax Music</p>
+              <p class="artist">Kathrin Klimek</p>
+            </div>
+          </div>
+          <div class="running-song-title">Yinghua</div>
+        </div>
+
+        <div>
+          <!-- Player Controls -->
+          <div class="player_controls">
+            <p class="track_playing"></p>
+
+            <div class="audio">
+              <audio
+                src="https://raw.githubusercontent.com/eloi700/JavaScript-100-Days/main/DATA-MUSIC/album-2/1.mp3"
+                controls
+                controlsList="nodownload noplaybackrate"
+              ></audio>
+            </div>
+            <div class="addl-controls">
+              <button class="prev btn">
+                <i class="fa-solid fa-backward"></i>
+              </button>
+              <button class="shuffle btn">
+                <i class="fa-solid fa-shuffle"></i>
+              </button>
+              <button class="next btn">
+                <i class="fa-solid fa-forward"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="footer">
+            <p class="source_name">Source: Free Music Archive - FMA</p>
+            <p class="license_number">License: CC BY-NC-ND</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- partial -->
+ <script type="module" src="./script1.js"></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
