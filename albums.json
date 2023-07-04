@@ -1,0 +1,43 @@
+{
+    "albums": [
+        {
+            "id": "album1",
+            "name": "Under the Flow - Vol.1",
+            "artist": "Kathrin Klimek",
+            "source": "Free Music Archive",
+            "license": "CC BY-NC-ND",
+            "albumImg": "album-imgs/album1.jpg"
+        },
+        {
+            "id": "album2",
+            "name": "Dance - Relax Music",
+            "artist": "Kathrin Klimek",
+            "source": "Free Music Archive",
+            "license": "CC BY-NC-SA",
+            "albumImg": "album-imgs/album2.jpg"
+        },
+        {
+            "id": "album3",
+            "name": "Cinema - Vol.1",
+            "artist": "Kathrin Klimek",
+            "source": "Free Music Archive",
+            "license": "CC BY",
+            "albumImg": "album-imgs/album3.jpg"
+        },
+        {
+            "id": "album4",
+            "name": "Cinema - Vol.2",
+            "artist": "Kathrin Klimek",
+            "source": "Free Music Archive",
+            "license": "CC BY-NC-ND",
+            "albumImg": "album-imgs/album4.jpg"
+        },
+        {
+            "id": "album5",
+            "name": "Paradise King",
+            "artist": "Kathrin Klimek",
+            "source": "Free Music Archive",
+            "license": "CC BY-NC-ND",
+            "albumImg": "album-imgs/album5.jpg"
+        }
+    ]
