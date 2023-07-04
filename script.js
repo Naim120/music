@@ -9,11 +9,6 @@ let listOfSongs = null;
 const sourceUrl =
   'https://cheap-spotify.pages.dev/';
 
-const sourceUrl
-  =
-  'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/';
-
-
 const imgSrcUrl =
   'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/album-imgs/';
 
