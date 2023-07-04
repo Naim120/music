@@ -7,7 +7,11 @@ const albumListHeader = showHeaderUI('List of Albums', 'album-close-btn');
 let listOfSongs = null;
 
 const sourceUrl =
+  'https://cheap-spotify.pages.dev/';
+
+const sourceUrll =
   'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/';
+
 
 const imgSrcUrl =
   'https://github.com/eloi700/JavaScript-100-Days/tree/6258973405ae4546eb0912a449c0d6ce9177b4b0/DATA-MUSIC/album-imgs/';
@@ -119,7 +123,7 @@ function songsUI(songs) {
     songTitle.textContent = song.songName;
 
     songTitle.addEventListener('click', () => {
-      audioSource.src = `${sourceUrl}${song.audioLink}`;
+      audioSource.src = `${sourceUrll}${song.audioLink}`;
 
       // Remove active class from all song titles
       const songTitles = document.querySelectorAll('.song-name');
@@ -152,7 +156,7 @@ function addlBtns(songs) {
     const prevSongTitle = songTitles[prevSongIndex];
     const prevSong = songs[prevSongIndex];
 
-    audioSource.src = `${sourceUrl}${prevSong.audioLink}`;
+    audioSource.src = `${sourceUrll}${prevSong.audioLink}`;
 
     songTitles.forEach((title) => title.classList.remove('active'));
     prevSongTitle.classList.add('active');
@@ -174,7 +178,7 @@ function addlBtns(songs) {
     const nextSongTitle = songTitles[nextSongIndex];
     const nextSong = songs[nextSongIndex];
 
-    audioSource.src = `${sourceUrl}${nextSong.audioLink}`;
+    audioSource.src = `${sourceUrll}${nextSong.audioLink}`;
 
     songTitles.forEach((title) => title.classList.remove('active'));
     nextSongTitle.classList.add('active');
@@ -196,7 +200,7 @@ function addlBtns(songs) {
     const shuffledSongTitle = songTitles[shuffledSongIndex];
     const shuffledSong = songs[shuffledSongIndex];
 
-    audioSource.src = `${sourceUrl}${shuffledSong.audioLink}`;
+    audioSource.src = `${sourceUrll}${shuffledSong.audioLink}`;
     songTitles.forEach((title) => title.classList.remove('active'));
     shuffledSongTitle.classList.add('active');
 
