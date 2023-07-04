@@ -124,7 +124,7 @@ function songsUI(songs) {
     songTitle.textContent = song.songName;
 
     songTitle.addEventListener('click', () => {
-      audioSource.src = `${sourceUrll}${song.audioLink}`;
+      audioSource.src = `${sourceUrl}${song.audioLink}`;
 
       // Remove active class from all song titles
       const songTitles = document.querySelectorAll('.song-name');
@@ -157,7 +157,7 @@ function addlBtns(songs) {
     const prevSongTitle = songTitles[prevSongIndex];
     const prevSong = songs[prevSongIndex];
 
-    audioSource.src = `${sourceUrll}${prevSong.audioLink}`;
+    audioSource.src = `${sourceUrl}${prevSong.audioLink}`;
 
     songTitles.forEach((title) => title.classList.remove('active'));
     prevSongTitle.classList.add('active');
@@ -179,7 +179,7 @@ function addlBtns(songs) {
     const nextSongTitle = songTitles[nextSongIndex];
     const nextSong = songs[nextSongIndex];
 
-    audioSource.src = `${sourceUrll}${nextSong.audioLink}`;
+    audioSource.src = `${sourceUrl}${nextSong.audioLink}`;
 
     songTitles.forEach((title) => title.classList.remove('active'));
     nextSongTitle.classList.add('active');
@@ -201,7 +201,7 @@ function addlBtns(songs) {
     const shuffledSongTitle = songTitles[shuffledSongIndex];
     const shuffledSong = songs[shuffledSongIndex];
 
-    audioSource.src = `${sourceUrll}${shuffledSong.audioLink}`;
+    audioSource.src = `${sourceUrl}${shuffledSong.audioLink}`;
     songTitles.forEach((title) => title.classList.remove('active'));
     shuffledSongTitle.classList.add('active');
 
